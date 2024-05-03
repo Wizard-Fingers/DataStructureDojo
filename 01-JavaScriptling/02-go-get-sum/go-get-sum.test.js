@@ -1,4 +1,4 @@
-const goGetSum = require("./go-get-sum");
+import goGetSum from "./go-get-Sum/go-get-sum";
 
 test("adds 1 + 2 to equal 3", () => {
   expect(goGetSum(1, 2)).toBe(3);
