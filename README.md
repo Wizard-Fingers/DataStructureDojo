@@ -11,8 +11,7 @@ This is primally for my own notes and will add working explanations regarding wh
 -how to start
 
 1. install npm by running `npm install` in your root directory.
-2. navigate to the project directory by running `cd` then the path you want to navigate to for example:
-3. `cd 01-JavaScriptling/01-hella-world`
+2. navigate to the project directory by running `cd` then the path you want to navigate to for example:`cd 01-JavaScriptling/hella-world`
 
 - I personally use the "write" "run" "test" method in this project that will allow me to go further than just writing code which is how I developed my projects before. In this repo you will find folders that contain a folder called "JavaScriptling" where are some of your more basic exercises with folders containing the files you will be working with.
 
