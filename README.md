@@ -1,4 +1,4 @@
-# This is a bunch of Data structures that I've personally put together.
+# This is a bunch of Data structures that I've personally put together
 
 the contributors are:
 
