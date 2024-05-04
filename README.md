@@ -1,46 +1,29 @@
-# This is a bunch of Datastructures that I've personally put together
+# This is a bunch of Data structures that I've personally put together.
 
-this is primally for my own notes and will add working explanations regarding what I did how I reasoned it out ect. Please feel free to contribute your own or reach out to me if you want to contribute.
+the contributors are:
 
-### 01 JavaScripttling
+Art Beckett
 
-🌍 Hella World! 🚀
-Welcome to the fantastic world of "Hella World!" where we embark on an exciting adventure in JavaScript! 🎉
-📁 Project Structure
+This is primally for my own notes and will add working explanations regarding what I did how I reasoned it out ect. Please feel free to contribute your own or reach out to us if you want to contribute.
 
-Our project consists of two amazing files:
+---
 
-1. hella-world.js: This is where the magic happens! 🪄 It contains a function named hellaWorld() that returns the epic string "hella world!". 😎
-2. hella-world.test.js: This is our trusty test file, ensuring that our hellaWorld() function always returns the correct string. 🧪
+-how to start
 
-🏃‍♂️ Running the Code
+1. install npm by running `npm install` in your root directory.
+2. navigate to the project directory by running `cd` then the path you want to navigate to for example:
+3. `cd 01-JavaScriptling/01-hella-world`
 
-To witness the awesomeness, simply run the following command:
+- I personally use the "write" "run" "test" method in this project that will allow me to go further than just writing code which is how I developed my projects before. In this repo you will find folders that contain a folder called "JavaScriptling" where are some of your more basic exercises with folders containing the files you will be working with.
 
-`node hella-world.js`
+|
+--01-name
+-01-file.js
+-01-file-run.js
+-01-file-test.js
+|
 
-And voila! 🎩 The console will display the awe-inspiring message:
-`hella world!`
+if you want to make your own exercise files you can as long as you follow the same pattern.
 
-🧪 Testing the Code
-
-We believe in the power of testing! 💪 To make sure our code is unbreakable, we have a test file (hella-world.test.js) that puts hellaWorld() through its paces. 🏋️‍♂️
-To run the tests, execute the following command:
-`npm test`
-
-And behold! 🙌 The tests will pass with flying colors:
-
-PASS 01-JavaScriptling/hella-world.test.js
-√ Returning 'hella world!' as a string (3 ms)
-
-Test Suites: 1 passed, 1 total
-Tests: 1 passed, 1 total
-Snapshots: 0 total
-Time: 0.68 s, estimated 1 s
-Ran all test suites.
-
-Congratulations! 🥳 You have successfully run and tested the "Hella World!" project. Give yourself a pat on the back! 👏
-Now, go forth and conquer the JavaScript world with your newfound knowledge! 🌍💻
-Happy coding! 😄
-
-this is the order for how we will work with JavaScrip in these files write run test
+your first file will be the place you write your data structure, and
+the second file is where you will run that data structure by navigating to it in your terminal and run `npx run <filename>` then if that gives the result you wanted make a new file with a Jest Test called file.test.js and write the test following the same pattern as the other tests in the filesystem. Personally I like to run five 4 passes and one fail however as long as there is a test file there with tests that ensure your code is robust that is good enough for your application. To run your test file please run `npx jest <filename>` and you will see the results in your terminal.
