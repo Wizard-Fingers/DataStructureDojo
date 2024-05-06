@@ -1,4 +1,4 @@
 const allCap = require("./all-cap");
 
-const result = allCap("hello");
-console.log(result);
+// const result = allCap("hello");
+// console.log(result);

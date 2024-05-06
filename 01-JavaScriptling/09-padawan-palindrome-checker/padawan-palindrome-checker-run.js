@@ -1,5 +1,5 @@
 const padawanPalindromeChecker = require("./padawan-palindrome-checker");
 
-const result = padawanPalindromeChecker("racecar");
+// const result = padawanPalindromeChecker("racecar");
 
-console.log(result);
+// console.log(result);
