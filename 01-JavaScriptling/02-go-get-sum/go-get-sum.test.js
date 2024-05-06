@@ -1,4 +1,4 @@
-const goGetSum = require("./go-get-sum");
+const goGetSum = require("./go-get-Sum");
 
 // Describe the test suite for the goGetSum function
 describe("goGetSum function", () => {
