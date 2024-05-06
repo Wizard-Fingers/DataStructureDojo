@@ -1,6 +1,11 @@
 // write a function that takes two arrays and returns the common elements in both arrays and returns the common elements in a new array.
 
 function intersect(arr1, arr2) {
+  // Check if both inputs are arrays
+  if (!Array.isArray(arr1) || !Array.isArray(arr2)) {
+    throw new TypeError("Both arguments must be arrays");
+  }
+
   // Check if either array is empty
   if (arr1.length === 0 || arr2.length === 0) {
     return [];
